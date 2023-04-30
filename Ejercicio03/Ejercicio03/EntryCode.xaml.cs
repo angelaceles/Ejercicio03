@@ -15,7 +15,7 @@ namespace Ejercicio03
         public EntryCode()
         {
             InitializeComponent();
-
+            Title = "Code Endry Click";
             StackLayout stack = new StackLayout();
             var entry = new Entry { Text = "This is a read-only Entry" };
             stack.Children.Add(entry);
