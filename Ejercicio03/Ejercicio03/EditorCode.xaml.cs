@@ -15,6 +15,7 @@ namespace Ejercicio03
         public EditorCode()
         {
             InitializeComponent();
+            Title = "Code Editor Click";
             StackLayout stack = new StackLayout();
             var MyEditor = new Editor { Text = "I am an Editor" };
             stack.Children.Add(MyEditor);
